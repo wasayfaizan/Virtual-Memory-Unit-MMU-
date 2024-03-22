@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Virtual Memory Unit Project</h1>
-    <h2>Description</h2>
+    <p>Project that was made for one of my <b>Operating System</b> course (EECS3221).</p>
+<h2>Description</h2>
     <p>
         This project consists of designing and implementing a Memory Management Unit (MMU) that translates logical addresses to physical addresses for a virtual address space of size 2<sup>16</sup> = 65,536 bytes. The MMU reads logical addresses from a file, uses a Translation Lookaside Buffer (TLB) and a page table to translate each logical address to its corresponding physical address, and outputs the value of the byte stored at the translated physical address.
     </p>
